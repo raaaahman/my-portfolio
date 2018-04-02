@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="fr_FR">
+	<head>
+		<meta charset="utf-8">
+		<title>S-Schell Developpement</title>
+		<link rel="stylesheet" href="css/bootstrap.css"/>
+		<link rel="stylesheet" href="css/styles.css"/>
+		<link rel="icon" type="image/png" href="img/s-note.ico" />
+	</head>
+	<body data-spy="scroll" data-target="#site-nav">
+			<nav id="site-nav" class="navbar navbar-expand-lg fixed-top bg-white">
+				<div class="container d-flex">
+					<a href="#" title="Sylvain Schellenberger Développement" class="navbar-brand"><h1 class="d-flex align-items-center"><figure class="brand-icon d-none d-sm-block"><img class="img-fluid" src="img/s-note.png" alt="S-Schell logo" /></figure><span class="brand-name hidden ">Sylvain Schellenberger</span></h1></a>
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					 <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
+				 </button>
+					<div class="collapse navbar-collapse" id="navbarSupportedContent">
+						<ul class="navbar-nav text-right text-lg-left">
+							<li class="nav-item"><a class="nav-link" title="Accueil" href="#site-header">Accueil</a></li>
+							<li class="nav-item"><a class="nav-link" title="Infos" href="#about">Infos</a></li>
+							<li class="nav-item"><a class="nav-link" title="Portfolio" href="#portfolio">Portfolio</a></li>
+							<li class="nav-item"><a class="nav-link" title="Contact" href="#contact">Contact</a></li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+			<header class="jumbotron jumbotron-fluid" id="site-header">
+				<div class="overlay overlay-color-gray">
+						<div class="container description text-center">
+								<h2 class="text-color-primary"><span class="font-weight-bold">Développeur</span> et citoyen du web</h2>
+								<p class="w-75 mx-auto text-white">Passioné par le code et la théorie qui l'entoure, je cherche continuellement à monter en compétences, que ce soit en participant à des challenges en ligne ou à des rencontres professionnelles en présentiel. Ce site est une manière pour moi de me présenter à la communauté du Web.</p>
+								<a href="#contact" class="btn">Me contacter</a>
+								<a href="#about" class="btn">En savoir plus</a>
+						</div>
+				</div>
+			</header>
+			<main>
+				<section id="about" class="anchor">
+					<div  class="container">
+						<h2 class="text-center text-uppercase">Qui suis-je ?</h2>
+						<div class="row">
+							<div class="col-md-4 col-sm-12 d-flex align-items-center">
+								<figure class="profile-pic">
+									<img class="img-fluid rounded-circle" src="img/profil.jpg" alt="Mon portrait"/>
+									<figcaption class="text-center">Développeur Web</figcaption>
+								</figure>
+							</div>
+							<div class="desc col-md-8 col-sm-12">
+								<h3 class="text-color-primary">Sylvain Schellenberger</h3>
+								<p>Entré dans le monde du développement web par curiosité pour une technologie que je vois évoluer depuis que je suis jeune, je me suis rapidement pris au jeu et ai voulu en faire mon activité professionnelle.</p>
+								<p>Après un "bootcamp", je me suis lancé en tant que développeur WordPress indépendant. Je cherche aujourd'hui à progresser sur des questions de développement plus générales, comme les bonnes pratiques et l’architecture des applications, tout en gardant un intérêt pour l'évolution des langages PHP et Javascript.</p>
+								<p>Je participe régulièrement à des réunions sur Lyon, organisées via l'application  Meet Up et j'adore participer à des game jams, comme par exemple la Global Game Jam 2018.</p>
+							</div>
+						</div>
+					</div>
+				</section>
+
+				<section id="flash-info" class="bg-color-primary">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-9 col-sm-12">
+								<h2 class="text-white">Disponible pour un emploi</h2>
+								<p class="text-color-dark">Je suis aujourd'hui à la recherche d'un emploi. Je peux intégrer des maquettes graphiques en utilisant une approche orientée composants et responsive web design, enrichies d’interactions en Javascript, développer des thèmes et des plugins WordPress ou intervenir sur des applications construites en PHP orienté objet, sans framework spécifique.</p>
+							</div>
+							<div class="col-md-3 col-sm-12 text-center text-md-right d-md-flex">
+								<a href="files/sylvain_schellenberger_cv.pdf" target="_blank" class="btn btn-color-dark">Voir mon cv</a>
+							</div>
+						</div>
+					</div>
+				</section>
+
+				<section id="portfolio" class="anchor">
+					<div class="container text-center">
+						<h2 class="text-center text-uppercase">Mon Portfolio</h2>
+						<div class="row text-left">
+							<article id="nbiblio" class="col-md-6 col-sm-12">
+								<figure class="img-container has-overlay-active">
+									<img class="img-horizontal" src="img/portfolio/nbiblio.JPG"/>
+									<div class="overlay overlay-active overlay-color-primary text-center">
+										<span class="btn-icon"><a href="#project-popup" data-project="nbiblio" data-toggle="modal" title="Afficher les détails" target="_blank"><i class="fas fa-eye"></i></a></span>
+										<span class="btn-icon"><a href="http://notre-bibliotheque.fr/" title="Voir le projet" target="_blank"><i class="fas fa-link"></i></i></a></span>
+									</div>
+								</figure>
+									<h3><a class="project-url" target="_blank" href="http://notre-bibliotheque.fr/" title="Notre Bibliothèque - association Saint-Maximinoise">Notre Bibliothèque</a></h3>
+									<div class="project-desc d-none">
+						        <p>Catalogue en ligne pour une bibliothèque associative.</p>
+										<p>Gestion de l'hébergement, installation et configuration d'un site WordPress, installation d'un thème.</p>
+										<p>Création d'une extension pour gérer les livres et leurs auteurs. Mise en place d'une extension pour faciliter la recherche de livres.</p>
+									</div>
+									<ul class="tag-list">
+										<li class="tag">PHP</li>
+										<li class="tag">Wordpress</li>
+									</ul>
+									<div class="meta-data"><time datetime="2017-09-01">Septembre</time><time datetime="2017-10-20">Octobre 2017</time></div>
+							</article>
+							<article id="ld39" class="col-md-6 col-sm-12">
+								<figure class="img-container has-overlay-active">
+									<img class="img-horizontal" src="img/portfolio/oppressivlight.png"/>
+									<div class="overlay overlay-active overlay-color-primary text-center">
+										<span class="btn-icon"><a href="#project-popup" data-project="ld39" data-toggle="modal" title="Afficher les détails"><i class="fas fa-eye"></i></a></span>
+										<span class="btn-icon"><a class="project-url" target="_blank" href="https://raaaahman.itch.io/oppressiv-light" title="Voir le projet"><i class="fas fa-link"></i></i></a></span>
+									</div>
+								</figure>
+									<h3><a target="_blank" href="https://raaaahman.itch.io/oppressiv-light" title="Oppressiv' Light - Un jeu HTML5">Oppressiv' Light</a></h3>
+									<div class="project-desc d-none">
+						        <p>Jeu vidéo HTML5.</p>
+										<p>Réalisé à l'occasion de la game jam Ludum Dare n°39 en équipe.</p>
+									</div>
+									<ul class="tag-list">
+										<li class="tag">Javascript</li>
+										<li class="tag">Phaser</li>
+									</ul>
+									<div class="meta-data"><time datetime="2017-09-01">Juillet 2017</time></div>
+									<a href="https://github.com/raaaahman/72hsansenergie" class="project-src d-none">Source</a>
+							</article>
+						</div>
+					</div>
+				</section>
+				<section id="participations" class="anchor">
+					<div class="container">
+						<h2 class="text-center text-uppercase">Mes participations</h2>
+						<ul class="row align-items-center text-center">
+							<li class="col-sm-6 col-lg-3">
+								<a title="Battledev saison 11" href="https://ressources.blogdumoderateur.com/2018/03/classement-battledev-mars-2018-saison-11.pdf"><img alt="Battledev saison 11" src="img/logos/battledev.png"/></a>
+							</li>
+							<li class="col-sm-6 col-lg-3">
+									<a title="Nuit du Code Citoyen" href="https://nuitcodecitoyen.org/villes/fr/lyon"><img alt="Nuit du Code Citoyen" src="img/logos/NDC.png" class="img-fluid"/></a>
+							</li>
+							<li class="col-sm-6 col-lg-3">
+									<a title="Global Game Jam 2018" href="https://globalgamejam.org/2018/games/hard-days-work"><img alt="Global Game Jam 2018" src="img/logos/ggj.JPG" class="img-fluid"/></a>
+							</li>
+							<li class="col-sm-6 col-lg-3">
+									<a title="Ludum Dare 39" href="https://ldjam.com/events/ludum-dare/39/oppressiv-light"><img alt="Ludum Dare 39" src="img/logos/ld39.jpg" class="img-fluid"/></a>
+							</li>
+						</ul>
+					</div>
+				</section>
+				<section id="contact" class="bg-color-dark anchor">
+					<div class="container">
+						<div class="row">
+							<div class="col-12 col-lg-6">
+								<div class="h-card">
+									<a href="#"><span class="brand-name p-name">Sylvain Schellenberger</span></a>
+									<address>
+										<p><span class="p-locality">Villeurbanne, </span><span class="p-region">Rhône-Alpes, </span><span class="p-country-name">France</span></p>
+									</address>
+								</div>
+								<ul class="social-networks">
+									<li class="btn-icon">
+										<a title="LinkedIn" href="https://www.linkedin.com/in/sylvain-schellenberger/"><i class="fab fa-linkedin-in"></i></a>
+									</li>
+									<li class="btn-icon">
+										<a title="MeetUp" href="https://www.meetup.com/fr-FR/members/220046049/"><i class="fab fa-meetup"></i></a>
+									</li>
+									<li class="btn-icon">
+										<a title="GitHub" href="https://github.com/raaaahman"><i class="fab fa-github"></i></a>
+									</li>
+									<li class="btn-icon">
+										<a title="CodePen" href="https://codepen.io/SleuvinS/#"><i class="fab fa-codepen"></i></a>
+									</li>
+									<li class="btn-icon">
+										<a title="Itch.io" href="https://raaaahman.itch.io/"><i class="fas fa-gamepad"></i></a>
+									</li>
+								</ul>
+							</div>
+							<div class="col-12 col-lg-6">
+								<h2>Contact</h2>
+								<form>
+									<div class="form-group">
+										<input type="text" name="name" id="name" placeholder="Votre nom" class="form-control"/>
+									</div>
+									<div class="form-group">
+										<input type="email" name="email" id="email" placeholder="Votre email *" class="form-control"/>
+									</div>
+									<div class="form-group">
+										<input type="text" name="topic" id="topic" placeholder="Sujet" class="form-control"/>
+									</div>
+									<div class="form-group">
+										<textarea placeholder="Votre message... *" class="form-control"></textarea>
+									</div>
+									<input type="submit" class="btn bg-color-primary float-right"/>
+								</form>
+							</div>
+							<!--
+							<div class="col-12 col-md-6 col-lg-4">
+								<h2>Latest Deviations</h2>
+								<div class="deviant-feed">
+									<ul class="row">
+									</ul>
+								</div>
+							-->
+						</div>
+					</div>
+				</section>
+			</main>
+			<footer class="bg-color-darker">
+				<div class="container">
+					<div class="row">
+						<div class="col-10 col-lg-6">
+							<span>Web design par <a href="https://lunarpixel.deviantart.com/" target="_blank">LunarPixel.</a></span>
+							<span>Photo par <a href="https://unsplash.com/photos/P2SkP_PXhlU?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText" target="_blank">Fabian Grohs</a> sur <a href="https://unsplash.com/search/photos/code?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText" target="_blank">Unsplash</a>.</span>
+							<span>Intégration et développement par <a href="#" target="_blank">Sylvain Schellenberger</a>.</span>
+						</div>
+						<div class="col-2 col-lg-6">
+							<nav class="navbar text-right">
+								<ul class="navbar-nav d-none d-lg-inline-block">
+									<li class="nav-item d-inline-block"><a class="nav-link" href="#site-header">Accueil</a></li>
+									<li class="nav-item d-inline-block"><a class="nav-link" href="#about">Infos</a></li>
+									<li class="nav-item d-inline-block"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+									<li class="nav-item d-inline-block"><a class="nav-link" href="#contact">Contact</a></li>
+								</ul>
+								<a title="Retour à l'accueil" href="#site-header" class="scroll-top">
+									<i class="fas fa-angle-up"></i>
+								</a>
+							</nav>
+						</div>
+					</div>
+				</div>
+			</footer>
+
+		<!--Modal Box-->
+		<div id="project-popup" class="modal fade" tabindex="-1" role="dialog">
+		  <div class="modal-dialog" role="document">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <h2 class="modal-title">Notre Bibliothèque</h2>
+		        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+		          <span aria-hidden="true">&times;</span>
+		        </button>
+		      </div>
+		      <div class="modal-body">
+						<figure>
+							<img class="img-fluid" src="img/portfolio/nbiblio.JPG"/>
+						</figure>
+						<div class="project-desc">
+						</div>
+						<ul class="tag-list">
+							<li class="tag"></li>
+						</ul>
+						<div class="meta-data"><time datetime=""></time></div>
+		      </div>
+		      <div class="modal-footer">
+		        <a href="" target="_blank" class="btn bg-color-primary project-url">Voir le projet</a>
+						<a href="" target="_blank" class="btn bg-color-primary project-src">Code source</a>
+		        <button type="button" class="btn btn-color-dark" data-dismiss="modal">Fermer</button>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+		<script src="js/jquery-3.3.1.js"/></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+		<script src="js/bootstrap.bundle.js"></script>
+		<script src="js/fontawesome-all.js"></script>
+		<script src="js/main.js"></script>
+	</body>
+</html>

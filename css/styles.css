@@ -347,7 +347,7 @@ h1 {
 		font-weight: 400;
 	}
 
-	.nav-link.active {
+	#site-nav .nav-link.active {
 		background-color: var(--color-primary);
 		color: var(--white);
 	}

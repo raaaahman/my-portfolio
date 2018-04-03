@@ -334,7 +334,7 @@ h1 {
 		padding: 2em 0 2em 0;
 	}
 
-	.nav-item::before {
+	.nav-item:not(:first-child)::before {
 		content: "\007c";
 		color: var(--color-gray-light);
 		font-weight: 400;

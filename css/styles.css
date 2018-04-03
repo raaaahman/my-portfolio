@@ -572,6 +572,10 @@ section h2 {
 	margin-bottom: 2em;
 }
 
+#contact p:last-child, #contact ul:last-child, #contact address:last-child {
+	margin-bottom: 0;
+}
+
 /*footer*/
 
 footer .container {

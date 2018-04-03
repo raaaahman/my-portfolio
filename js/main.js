@@ -89,7 +89,7 @@ $('#project-popup').on('show.bs.modal', function(event) {
 	renderModal(modalId, data);
 });
 
-$('.navbar a').on('click', function(e) {
+$('.navbar a, #site-header a').on('click', function(e) {
 	//e.preventDefault();
 	$('body, html').animate({
 		scrollTop: $($(this).attr('href')).offset().top + 1 - getNavHeight()
